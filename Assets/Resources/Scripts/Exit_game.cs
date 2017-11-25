@@ -16,10 +16,20 @@ public class Exit_game : MonoBehaviour {
 	}
 
 	public void Quit_game (){
-		Application.Quit ();
-	}
+        //If we are running in a standalone build of the game
+    #if UNITY_STANDALONE
+        //Quit the application
+        Application.Quit();
+    #endif
 
-	public void Deactivate_exit_window(){
+        //If we are running in the editor
+    #if UNITY_EDITOR
+        //Stop playing the scene
+        UnityEditor.EditorApplication.isPlaying = false;
+    #endif
+    }
+
+    public void Deactivate_exit_window(){
 		if (Exit_window.activeSelf) {
 			Exit_window.SetActive (false);
             Time.timeScale = 1.0f;

@@ -34,7 +34,8 @@ public class MenuManager : MonoBehaviour {
 			Set_next_menu (Menus, 1);
 			break;
 		case 2:
-			//Set_menu (Menus, 2);
+            current_menu++;
+			Set_next_menu (Menus, 2);
 			break;
 		default:
 			break;
@@ -54,6 +55,10 @@ public class MenuManager : MonoBehaviour {
             case 2:
                 current_menu--;
                 Set_previous_menu(Menus, 2);
+                break;
+            case 3:
+                current_menu--;
+                Set_previous_menu(Menus, 3);
                 break;
             default:
                 break;
