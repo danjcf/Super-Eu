@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour {
 	int current_menu = 0;
 	public GameObject [] Menus;
+    public GameObject Character;
 
 
 	private void Set_next_menu(GameObject [] Menu,int current)
@@ -31,12 +32,13 @@ public class MenuManager : MonoBehaviour {
 			break;
 		case 1:
 			current_menu++;
-			Set_next_menu (Menus, 1);
+            Character.SetActive(true);
+            Set_next_menu (Menus, 1);
 			break;
 		case 2:
             current_menu++;
-			Set_next_menu (Menus, 2);
-			break;
+			Set_next_menu (Menus, 2); 
+            break;
 		default:
 			break;
 		}
@@ -55,6 +57,7 @@ public class MenuManager : MonoBehaviour {
             case 2:
                 current_menu--;
                 Set_previous_menu(Menus, 2);
+                Character.SetActive(false);
                 break;
             case 3:
                 current_menu--;
