@@ -19,15 +19,15 @@ public class Menu_switch : MonoBehaviour {
 			Input_age = GameObject.Find ("AgeField").GetComponent<InputField> ();
 			Toggle_rapaz = GameObject.Find ("Rapaz").GetComponent<Toggle> ();
 			Toggle_rapariga = GameObject.Find ("Rapariga").GetComponent<Toggle> ();
-
+			
 
 	}
-
+	//------------Menu 1 -------------------------------------
 
 	public void Save_player_name (){
 		player_name = Input_name.text;
 		PlayerPrefs.SetString ("Nome", player_name);
-		print(PlayerPrefs.GetString ("Nome"));
+		print("Nome:" + PlayerPrefs.GetString ("Nome"));
 
 	}
 
@@ -38,14 +38,16 @@ public class Menu_switch : MonoBehaviour {
 		else if (Toggle_rapariga.isOn) {
 			PlayerPrefs.SetString ("Sexo","F");
 		}
-		print(PlayerPrefs.GetString("Sexo"));
+		print("Sexo:" + PlayerPrefs.GetString("Sexo"));
 	}
 
 	public void Save_age () {
 		player_age = Input_age.text;
 		PlayerPrefs.SetString ("Idade", player_age);
-		print(PlayerPrefs.GetString ("Idade"));
+		print("Idade: " + PlayerPrefs.GetString ("Idade"));
 
 	}
+
+
 
 }

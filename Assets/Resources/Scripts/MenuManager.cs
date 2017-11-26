@@ -22,6 +22,7 @@ public class MenuManager : MonoBehaviour {
         Menu[current - 1].SetActive(true);
     }
 
+
 	public void Next_menu (){
 		print ("Menu:" + current_menu);
 		switch (current_menu) {
@@ -39,6 +40,19 @@ public class MenuManager : MonoBehaviour {
             current_menu++;
 			Set_next_menu (Menus, 2); 
             break;
+		case 3:
+			Character.SetActive(false);
+			current_menu++;
+			Set_next_menu (Menus, 3);
+			break;
+		case 4:
+			current_menu++;
+			Set_next_menu (Menus, 4);
+			break;
+		case 5:
+			current_menu++;
+			Set_next_menu (Menus, 5);
+			break;
 		default:
 			break;
 		}
