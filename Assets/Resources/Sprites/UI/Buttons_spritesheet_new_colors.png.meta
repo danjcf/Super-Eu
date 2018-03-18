@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 743c14cda2d94134fb2f719bfaefde12
-timeCreated: 1511269748
+timeCreated: 1511789339
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -198,48 +198,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_5
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 81
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 81
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_7
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 81
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Buttons_spritesheet_new_colors_8
       rect:
         serializedVersion: 2
@@ -282,41 +240,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_11
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 64
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Buttons_spritesheet_new_colors_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_13
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 64
-        width: 9
-        height: 16
+        x: 85
+        y: 53
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,48 +289,6 @@ TextureImporter:
         y: 50
         width: 6
         height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_17
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 52
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_18
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 54
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_spritesheet_new_colors_19
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 52
-        width: 11
-        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,6 +457,20 @@ TextureImporter:
         y: 21
         width: 38
         height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_spritesheet_new_colors_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 8
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
